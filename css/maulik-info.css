@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body {
+	background-color:#F1FAEE;	
+}
+
+
+.ddimg{
+	background-image:url('../images/main.jpg');
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center;
+	float:right;
+	height:500px;
+	width:100%;
+}
+
+
+#dpimg{
+	display:block;
+	color:#F1FAEE;
+	font-family: 'Patrick Hand', cursive;
+	font-size:50px;
+	text-align:center;
+	margin-right:30%;
+	margin-left:35%;
+	margin-top:15%;
+	border-bottom: 5px solid #E63946;
+}
+
+
+.dintro{
+	background-color:#A8DADC;
+	margin:auto;
+	display:block;
+}
+
+
+#devimg{
+  height:560px;
+  background-color:#A8DADC;
+	float:left;
+	display:block;
+	margin:auto;
+	margin-top:10%;
+	margin-left:15%;
+	border: 5px solid #E63946;
+}
+
+
+#introp{
+	width:664px;
+	float:right;
+	position:relative;
+	display:block;
+	padding:9%;
+}
+
+
+#introp h2{
+	font-size:50px;
+	font-family: 'Patrick Hand', cursive;
+	border-bottom: 5px solid #E63946;	
+}
+
+
+#introp p {
+	padding-top:10px;
+	font-size:19px;
+}
+
+
+#introp h3{
+	display:inline;
+	background-color:#E63946;
+	color:white;
+  padding:20px;	
+}
+
+
+#introp h3:hover{
+	opacity:0.5;
+}
+
+
+a{
+	text-decoration:none;
+}

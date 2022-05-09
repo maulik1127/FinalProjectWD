@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/contact.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<meta name="author" content="Maulik Patel">
+	<meta name="description" content="Contact us page of our Final Project">
+</head>
+
+<body>
+
+
+	<header>
+
+		<div class="navbar">
+
+			<nav>
+
+				<ul class="navigation">
+					<li><a href="contact.html">Contact us</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="index.html">Home</a></li>
+				</ul>
+
+	<!-- /*
+	include 
+	*/ 
+audio video text tel mailto:''  
+
+<video>
+	<source src="w">  
+-->
+			</nav>
+
+		</div>
+
+		<div class="cdimg">
+
+			<h2 id="chimg">Contact Us</h2>
+
+		</div>
+
+	</header>
+
+
+
+	<main>
+
+		<div class="container">
+
+				<h1>Get in Touch!</h1>
+
+				<form action="https://postmail.invotes.com/send" method="post" id="email_form">
+
+    				<input type="text" name="subject" placeholder="Subject" />
+    				<input type="text" id="fname" placeholder="Full Name"/>
+    				<input type="hidden" name="access_token" value="n890x420cpano3uj99x410ut" />
+    				<input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+    				<input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+					
+				
+    				<input type="email" id="email" name="extra_email" placeholder="Email Address" />
+    				<textarea name="text" placeholder="Message" ></textarea>
+    				<input type="number"  name="extra_phone_number" placeholder="Phone Number" />
+
+					
+    				<input id="submit_form" type="submit" value="Send" />
+				</form>
+
+		</div>
+
+		<div class="our-info">
+
+			<a href="Maulik-info.html">
+
+				<div class="Maulik-info">
+
+					<h1>Maulik Patel</h1>
+					<br>
+
+					<p><i class="material-icons" style="font-size:18px">mail</i>
+						maulik@gmail.com</p>
+
+					<p><i class="fa fa-mobile" style="font-size:24px;"></i>
+		
+						+1 (438) 979-6172</p>
+
+				</div>
+
+			</a>
+
+		</div>
+
+	</main>
+
+	<footer id="footer">
+
+		Design by Maulik!
+
+	</footer>
+
+	<script>
+		var submitButton = document.getElementById("submit_form");
+		var form = document.getElementById("email_form");
+		form.addEventListener("submit", function (e) {
+			setTimeout(function() {
+				submitButton.value = "Sending...";
+				submitButton.disabled = true;
+			}, 1);
+		});
+	</script> 
+
+</body>
+
+</html>

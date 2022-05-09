@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>About</title>
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/about.css">
+	<link rel="stylesheet" href="../css/slider.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="author" content="Maulik Patel">
+	<meta name="description" content="About-Us page of our Final Project">
+</head>
+
+<body>
+
+	<header>
+
+		<div class="navbar">
+
+			<nav>
+
+				<ul class="navigation">
+					<li><a href="contact.html">Contact us</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="index.html">Home</a></li>
+				</ul>
+
+			</nav>
+
+		</div>
+
+		<div class="adimg">
+
+			<h2 id="apimg">Services</h2>
+
+		</div>
+
+	</header>
+
+
+	<main>
+
+		<div id="titleintro">
+			<h1>OUR SERVICES</h1>
+		</div>
+
+		<div class="container">
+			
+			<div class="slide fade">
+			 <P ><span style="color:yellow"><b>Internet related services</b></span> Offering various services usch as domain name,website registration an so on</P>
+			</div>
+			<a class="prev" onclick="preSlide(-1)">&#10094;</a>
+			<div class="slide fade">
+			  <P><span style="color:red"><b>Web Developer</b></span> We help you to make the website for your business</P>
+			</div>
+			<div class="slide fade">
+			  <P><span style="color:green"><b>Course</b></span>We are prepared course for stuent who wants to learn web development</P>
+			</div>
+
+		
+			<a class="next" onclick="preSlide(1)" style="margin-top:0 ;">&#10095;</a>
+		  </div>
+		<div class="container">
+
+			<div id="Maulik-info">
+
+				<a href="Maulik-info.html">
+					<h2>Maulik Patel</h2>
+					<br>
+				</a>
+
+				<cite>"Still figuring out the programming language used to create the World!"</cite>
+
+				<br><br><br>
+
+				<p>
+					<a href="https://www.instagram.com/MaulikPatel22/" class="fa fa-instagram"></a>
+					<a href="https://www.youtube.com" class="fa fa-youtube"></a>
+					<a href="https://github.com/Maulik-Patel" class="fa fa-github"></a>
+				</p>
+
+			</div>
+
+			<section id="project" class="section_padding">
+				<h2 class="title">Project</h2>
+				<div class="project1">
+					<div class="col1">
+						<a href="#"><img src="../images/p1.jpg">
+							<div class="layer">
+								<h3>Work</h3>
+							</div>
+						</a>
+					</div>
+		
+					<div class="col1">
+						<a href="#"><img src="../images/p2.jpg">
+							<div class="layer">
+								<h3>Experience</h3>
+							</div>
+						</a>
+					</div>
+		
+					<div class="col1">
+						<a href="#"><img src="../images/p3.jpg">
+							<div class="layer">
+								<h3>Degrees</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+			
+
+
+		</div>
+
+	</main>
+
+	<footer id="footer">
+		Design by Maulik!
+	</footer>
+
+	<script>
+		let imgInd = 1;
+	   showSlider(imgInd);
+ 
+	   function currSlide(n) {
+		 showSlider((imgInd = n));
+	   }
+	   //go to any previous or next slide
+	   function preSlide(n) {
+		 showSlider((imgInd += n));
+	   }
+	   //function to display the slider
+	   function showSlider(n) {
+		 let x = document.querySelectorAll(".slide"); //select the whole slide div
+		 for (let i = 0; i < x.length; i++) {
+		   x[i].style.display = "none";
+		   //go to each and every div
+		 }
+		 
+		 if (n > x.length) {
+		   imgInd = 1;
+		   //if the n is higher than the length of array then go to the first image
+		 }
+		 if (n < 1) {
+		   imgInd = x.length;
+		   //n is lower than 1 then go to the last image
+		 }
+		 x[imgInd - 1].style.display = "block";
+ 
+	   
+	   
+	 }
+	 </script>
+
+</body>
+
+</html>
