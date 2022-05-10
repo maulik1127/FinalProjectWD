@@ -54,39 +54,6 @@ body{
 	border-bottom: 5px solid #E63946;
 }
 
-	
-ul {
-	list-style-type:none; 
-  background-color:#1D3557;	
-	font-size:20px;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-
-li {
-	display:block;
-  float: right;
-}
-
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 28px 36px;
-  text-decoration: none;
-}
-
-
-li a:hover {
-  background-color: #F1FAEE;
-	color:#1D3557;
-	border-top:5px solid #1D3557;
-	padding-top:23px;
-}
-
 
 
 .heading{
@@ -103,6 +70,10 @@ li a:hover {
 	display:block;
 }
 
+a{
+	text-decoration: none;
+	cursor: pointer;;
+}
 
 #aboutimg{
   width:664px;
@@ -198,8 +169,9 @@ a{
 }
 	
 
+
 footer{
-	padding:2px;
+
 	position:fixed;
 	width:100%;
 	background-color: #1D3557;
@@ -207,3 +179,5 @@ footer{
 	text-align:center;
 	bottom:0;
 }
+
+

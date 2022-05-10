@@ -44,8 +44,8 @@ body {
 }
 
 
-#devimg{
-  height:560px;
+#maulikimg{
+  height:460px;
   background-color:#A8DADC;
 	float:left;
 	display:block;
@@ -94,3 +94,78 @@ body {
 a{
 	text-decoration:none;
 }
+
+.fa {
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 50%;
+	text-align: center;
+	text-decoration: none;
+	margin-top: -10px;
+
+  }
+  
+  
+  .fa:hover {
+	opacity: 0.7;
+  }
+  
+  
+  .fa-instagram {
+	background: #125688;
+	color: white;
+  }
+  
+  
+  .fa-youtube {
+	background: #bb0000;
+	color: white;
+  }
+
+  .fa-github{
+	  background-color: black;
+	  color: wheat;
+  }
+
+
+
+  .tab{
+	  display: flex;
+	  height: 200px;
+	  width:900px;
+	  background-color: black;
+	 
+	  margin-left: 200px;
+	  margin-bottom: 100px;
+  }
+
+.bdesign button{
+	height: 40px;
+	width: 100px;
+	background-color: green;
+	font-size: 20px;
+}
+  
+  .tab a{
+	  text-align: center;
+	  text-decoration: none;
+	  color: white;
+  }
+
+
+  .bdesign p{
+	  color: wheat;
+	  font-size: 20px;
+	  margin: 40px;
+	  text-align: center;
+	  justify-items: center;
+	  align-items: center;
+  }
+
+  @media (max-width:768px) { 
+	  .tab{
+		  margin-left: 0;
+		  width: 600px;
+		  height: auto;
+	  }
+  }

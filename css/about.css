@@ -86,7 +86,7 @@ body {
 }
 
 
-#devimg{
+#maulikimg{
 	border: 5px solid #E63946;
   height:400px;
   background-color:#F1FAEE;
@@ -97,7 +97,7 @@ body {
 }
 
 
-#dev-info{
+#maulik-info{
 	width:664px;
 	float:left;
 	position:relative;
@@ -106,7 +106,7 @@ body {
 }
 
 
-#dev-info h2{
+#maulik-info h2{
 	font-size:50px;
 	font-family: 'Patrick Hand', cursive;
 	border-bottom: 5px solid #E63946;	
@@ -114,21 +114,18 @@ body {
 }
 
 
-#dev-info h2:hover {
+#maulik-info h2:hover {
 	color:#E63946;
 }
 
 
-#dev-info cite {
+#maulik-info cite {
 	margin:5px;
 	font-size:19px;
 	color:black;
 }
 
-#dev-info p{
+#maulik-info p{
 	font-size:32px;
 }
 
-h3{
-	font-family:'Times New Roman', Times, serif;
-}

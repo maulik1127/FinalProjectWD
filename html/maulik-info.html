@@ -4,8 +4,16 @@
   <head>
     <meta charset="UTF-8" />
     <title>About - Maulik Patel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  
     <link rel="stylesheet" href="../css/main.css" />
+      
+    <link rel="stylesheet" href="../css/nav.css" />
     <link rel="stylesheet" href="../css/maulik-info.css" />
+  
+
     <meta name="author" content="Maulik Patel" />
     <meta
       name="description"
@@ -15,14 +23,27 @@
 
   <body>
     <header>
-      <div class="navbar">
-        <nav>
-          <ul class="navigation">
-            <li><a href="contact.html">Contact us</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="index.html">Home</a></li>
-          </ul>
-        </nav>
+      <div  style="position: fixed;background-color:black;width:100%">
+        <nav class="navbar">
+          <a href="index.html" class="nav-branding" style="color: white;text-decoration:none;border-left: 10px solid green;">Maulik's web</a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="about.html" class="nav-link">Services</a>
+                    </li>
+          
+                    <li class="nav-item">
+                      <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
       </div>
 
       <div class="ddimg">
@@ -33,7 +54,7 @@
     <main>
       <div class="dintro">
         <div id="introimg">
-          <img src="../images/Maulik.jpg" id="Maulikimg" title="Maulik Patel" />
+          <img src="../images/mauleek.jpeg" id="maulikimg" title="Maulik Patel" />
         </div>
 
         <div id="introp">
@@ -64,30 +85,80 @@
             <h3>Contact Me!</h3>
           </a>
         </div>
+
       </div>
+      <!-- <div class="container">
+  
+        <div id="Maulik-info">
+  
+          <a href="Maulik-info.html">
+            <h2>Maulik Patel</h2>
+            <br>
+          </a>
+  
+          <cite>"Still figuring out the programming language used to create the World!"</cite>
+  
+          <br><br><br>
+  
+          <p>
+            <a href="https://www.instagram.com/MaulikPatel22/" class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+            <a href="https://github.com/Maulik-Patel" class="fa fa-github" style="height: 56px;width:100px;background-color:black"></a>
+          </p>
+  
+        </div>
+
+
+
+        </div> -->
+
+      	<footer id="footer">
+          <div class="" style="display: flex; justify-content: space-around">
+            <div >
+            <p style="border-bottom: 5px solid red;font-size: 20px;"> Contact Me</p>
+            <br>
+            <a href="https://www.instagram.com/MaulikPatel22/" class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+            <a href="https://github.com/Maulik-Patel" class="fa fa-github"></a>
+            </div>
+        
+            <div >
+            <pre><b style="border-bottom: 5px solid green;font-size: 20px;">  Location  </b>
+        <p style="margin-top: -10px;">5720, Boulevar Decarie,
+        Montreal, QC	
+        </p></pre>
+            </div>
+            <pre><p ><i class="material-icons" style="font-size:18px;margin-top: 10px;">mail</i><a href="mailto:mauliiek1524@gmail.com" style="color: white;"> mauleek1127@gmail.com</a></p><p><i class="fa fa-mobile" style="font-size:24px;color: white;"></i>	+1 514-717-6695</p></pre>
+          </div>
+          <div style="border: 1px solid rgb(182, 209, 187);width:50%;margin-left:300px;border-radius:20px;margin-top: -15px;"></div>
+          <div style="font-family:tahoma;font-size:15px;margin-left: -40px;">
+          Copyright © and Design By Mauleek Patel
+          </div>
+          </footer>
+      </div>
+  
     </main>
+    <div class="tab">
+      <div class="bdesign">
+      
+        <button id="miss1" onclick="mission()"><a>Misson</a></button>
 
-    <footer id="footer">
-      <div class="" style="display: flex; justify-content: space-around">
-        <div style="margin-left: 20px">
-          Design by Maulik!
-          <a
-            href="https://www.instagram.com/MaulikPatel22/"
-            class="fa fa-instagram"
-          ></a>
-          <a href="https://www.youtube.com" class="fa fa-youtube"></a>
-          <a href="https://github.com/Maulik-Patel" class="fa fa-github"></a>
-        </div>
+      <button id="dream"  onclick="dream()"><a>Dream </a></button>
+      <button id="wishes"  onclick="wishes()"><a>Wishes</a></button>
 
-        <div class="">
-          <pre>
-		Co:5145556656
-		Linton Avenue
-	</pre
-          >
-        </div>
-        <div>Email:12@gmail.com</div>
-      </div>
-    </footer>
+      <p id="addCon">Just Click one of the buttons to know about my coding journey </p>
+      <p class="con"></p>
+      
+<p id="demo"></p>
+    </div>
+    </div>
+
+    
+
+    <script src="../Js/tab.js">
+
+
+	    </script>
+      	<script src="../Js/nav.js"></script>
   </body>
 </html>

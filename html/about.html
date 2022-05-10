@@ -7,9 +7,14 @@
 	<title>About</title>
 	<link rel="stylesheet" href="../css/main.css">
 	<link rel="stylesheet" href="../css/about.css">
-	<link rel="stylesheet" href="../css/slider.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
+  
+	<link rel="stylesheet" href="../css/slider.css">
+	
+    <link rel="stylesheet" href="../css/nav.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta name="author" content="Maulik Patel">
 	<meta name="description" content="About-Us page of our Final Project">
@@ -19,18 +24,28 @@
 
 	<header>
 
-		<div class="navbar">
+		<div  style="position: fixed;background-color:black;width:100%">
+			<nav class="navbar">
+				<a href="index.html" class="nav-branding" style="color: white;text-decoration:none;border-left: 10px solid green;">Maulik's web</a>
+				<ul class="nav-menu">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">home</a>
+					</li>
+				
+					<li class="nav-item">
+						<a href="about.html" class="nav-link">Services</a>
+					</li>
 
-			<nav>
-
-				<ul class="navigation">
-					<li><a href="contact.html">Contact us</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="index.html">Home</a></li>
+					<li class="nav-item">
+						<a href="contact.html" class="nav-link">Contact</a>
+					</li>
 				</ul>
-
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
 			</nav>
-
 		</div>
 
 		<div class="adimg">
@@ -47,6 +62,7 @@
 		<div id="titleintro">
 			<h1>OUR SERVICES</h1>
 		</div>
+		<!-- SlideShow -->
 
 		<div class="container">
 			
@@ -58,56 +74,40 @@
 			  <P><span style="color:red"><b>Web Developer</b></span> We help you to make the website for your business</P>
 			</div>
 			<div class="slide fade">
-			  <P><span style="color:green"><b>Course</b></span>We are prepared course for stuent who wants to learn web development</P>
+			  <P><span style="color:green"><b>Course</b></span> We are prepared course for stuent who wants to learn web development</P>
 			</div>
+
+			<!-- Project area -->
 
 		
 			<a class="next" onclick="preSlide(1)" style="margin-top:0 ;">&#10095;</a>
-		  </div>
-		<div class="container">
-
-			<div id="Maulik-info">
-
-				<a href="Maulik-info.html">
-					<h2>Maulik Patel</h2>
-					<br>
-				</a>
-
-				<cite>"Still figuring out the programming language used to create the World!"</cite>
-
-				<br><br><br>
-
-				<p>
-					<a href="https://www.instagram.com/MaulikPatel22/" class="fa fa-instagram"></a>
-					<a href="https://www.youtube.com" class="fa fa-youtube"></a>
-					<a href="https://github.com/Maulik-Patel" class="fa fa-github"></a>
-				</p>
-
-			</div>
+	
 
 			<section id="project" class="section_padding">
-				<h2 class="title">Project</h2>
+				<div id="titleintro" style="color: black;margin-top: 20px;">
+					<h1>My Projects</h1>
+				</div>
 				<div class="project1">
 					<div class="col1">
-						<a href="#"><img src="../images/p1.jpg">
+						<a href="#"><img src="../images/tmp.jpg">
 							<div class="layer">
-								<h3>Work</h3>
+								<h3>Web Design Templates</h3>
 							</div>
 						</a>
 					</div>
 		
 					<div class="col1">
-						<a href="#"><img src="../images/p2.jpg">
+						<a href="#"><img src="../images/internships-ts-100669679-large.jpg">
 							<div class="layer">
-								<h3>Experience</h3>
+								<h3>Internship</h3>
 							</div>
 						</a>
 					</div>
 		
 					<div class="col1">
-						<a href="#"><img src="../images/p3.jpg">
+						<a href="#"><img src="../images/des.png">
 							<div class="layer">
-								<h3>Degrees</h3>
+								<h3>Web Developer Course</h3>
 							</div>
 						</a>
 					</div>
@@ -119,44 +119,37 @@
 		</div>
 
 	</main>
-
+<!-- Footer -->
 	<footer id="footer">
-		Design by Maulik!
-	</footer>
+		<div class="" style="display: flex; justify-content: space-around">
+		  <div >
+		  <p style="border-bottom: 5px solid red;font-size: 20px;"> Contact Me</p>
+			<br>
+			<a href="https://www.instagram.com/MaulikPatel22/" class="fa fa-instagram" style="padding:10px;width: 35px;"></a>
+			<a href="https://www.youtube.com" class="fa fa-youtube" style="padding:10px;width: 35px;"></a>
+			<a href="https://github.com/Maulik-Patel" class="fa fa-github" style="background-color: black;padding:10px;width: 35px;"></a>
+		  </div>
+  
+		  <div >
+			<pre><b style="border-bottom: 5px solid green;font-size: 20px;">  Location  </b>
+  <p style="margin-top: -10px;">5720, Boulevar Decarie,
+  Montreal, QC	
+  </p></pre>
+		  </div>
+		  <pre>
+		<p ><i class="material-icons" style="font-size:18px;margin-top: 10px;">mail</i><a href="mailto:mauliiek1524@gmail.com" style="color: white;"> mauleek1127@gmail.com</a></p>
+		</div>
+	  <div style="border: 1px solid rgb(182, 209, 187);width:50%;margin-left:300px;border-radius:20px;margin-top: -15px;"></div>
+	  <div style="font-family:tahoma;font-size:15px;margin-left: -40px;">
+		Copyright © and Design By Mauleek Patel
+	  </div>
+	  </footer>
 
-	<script>
-		let imgInd = 1;
-	   showSlider(imgInd);
- 
-	   function currSlide(n) {
-		 showSlider((imgInd = n));
-	   }
-	   //go to any previous or next slide
-	   function preSlide(n) {
-		 showSlider((imgInd += n));
-	   }
-	   //function to display the slider
-	   function showSlider(n) {
-		 let x = document.querySelectorAll(".slide"); //select the whole slide div
-		 for (let i = 0; i < x.length; i++) {
-		   x[i].style.display = "none";
-		   //go to each and every div
-		 }
-		 
-		 if (n > x.length) {
-		   imgInd = 1;
-		   //if the n is higher than the length of array then go to the first image
-		 }
-		 if (n < 1) {
-		   imgInd = x.length;
-		   //n is lower than 1 then go to the last image
-		 }
-		 x[imgInd - 1].style.display = "block";
- 
-	   
-	   
-	 }
+
+	<script src="../Js/slider.js">
+	
 	 </script>
+	 	<script src="../Js/nav.js"></script>
 
 </body>
 
